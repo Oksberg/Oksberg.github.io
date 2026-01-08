@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>portfolio_details_cyclistic | Cyclistic Bike-Share Analysis</title>
+  <meta name="description" content="portfolio_details_cyclistic: Cyclistic bike-share data analysis exploring differences between annual members and casual riders using R.">
+  <meta name="keywords" content="portfolio_details_cyclistic, Data Analytics, R, Cyclistic, Case Study, Bike Share, Visualization">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+<header id="header" class="header dark-background d-flex flex-column">
+  <i class="header-toggle d-xl-none bi bi-list"></i>
+
+  <div class="profile-img">
+    <img src="assets/img/my-profile-img.jpg" alt="Okyere Adubofuor" class="img-fluid rounded-circle">
+  </div>
+
+  <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+    <h1 class="sitename">Okyere Adubofuor</h1>
+  </a>
+
+  <nav id="navmenu" class="navmenu">
+    <ul>
+      <li><a href="index.html#portfolio" class="active"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+      <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="main">
+
+  <!-- Page Title -->
+  <div class="page-title dark-background">
+    <div class="container d-lg-flex justify-content-between align-items-center">
+      <h1>portfolio_details_cyclistic</h1>
+      <nav class="breadcrumbs">
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li class="current">portfolio_details_cyclistic</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Portfolio Details Section -->
+  <section id="portfolio_details_cyclistic" class="portfolio-details section">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row gy-4">
+
+        <!-- Slider -->
+        <div class="col-lg-8">
+          <div class="portfolio-details-slider swiper init-swiper">
+
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": { "delay": 5000 },
+                "pagination": { "el": ".swiper-pagination", "clickable": true }
+              }
+            </script>
+
+            <div class="swiper-wrapper align-items-center">
+
+              <div class="swiper-slide">
+                <img src="assets/img/portfolio/cyclistic_bike_share.jpg" alt="Cyclistic overview">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="assets/img/portfolio/Cyclistic/Ride_Frequency_by_Day_of_Week.jpg" alt="Ride frequency by days of the week">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="assets/img/portfolio/Cyclistic/Duration_by_Day_of_Week.jpg" alt="Ride duration by day of week">
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+        <!-- Project Info -->
+        <div class="col-lg-4">
+          <div class="portfolio-info">
+            <h3>Project Information</h3>
+            <ul>
+              <li><strong>Project</strong>: portfolio_details_cyclistic</li>
+              <li><strong>Category</strong>: Data Analytics Case Study</li>
+              <li><strong>Tools</strong>: R, tidyverse, lubridate, ggplot2, Excel</li>
+              <li><strong>Data Period</strong>: 2019 – 2020</li>
+              <li><strong>Repository</strong>: 
+                <a href="https://github.com/Oksberg/Data_Analytics_projects/tree/main/Cyclistic_bike_share" target="_blank">
+                  GitHub
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="portfolio-description">
+            <h2>How does a bike-share navigate speedy success?</h2>
+            <p>
+              portfolio_details_cyclistic analyzes Cyclistic’s historical bike-share data to
+              understand how annual members and casual riders use bikes differently.
+              Using R for data cleaning, transformation, and visualization, I found
+              that annual members exhibit consistent weekday usage indicative of
+              commuting, while casual riders take longer trips aligned with leisure
+              behavior.
+            </p>
+            <p>
+              Despite annual members being more profitable, they represent only about
+              30% of users. Based on the insights, I recommended duration-based pricing
+              for casual riders, weekend-focused incentives within memberships, and
+              exclusive medium- and long-term member plans to improve conversion and
+              revenue growth.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="footer" class="footer light-background">
+  <div class="container text-center">
+    <p>© <strong class="sitename">Okyere Adubofuor</strong> | Built on iPortfolio</p>
+    <div class="credits">
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+  </div>
+</footer>
+
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+  <i class="bi bi-arrow-up-short"></i>
+</a>
+
+<div id="preloader"></div>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+<!-- Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
